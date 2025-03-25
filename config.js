@@ -9,7 +9,7 @@ export const accentColor = "#81a4cd";
 export const darkColor = "#2c4a63";
 
 // Social media links - update with your own URLs
-export const linkedinUrl = "#https://www.linkedin.com/in/yilikal-tesfaye-a1565b110/";
+export const linkedinUrl = "https://www.linkedin.com/in/yilikal-tesfaye-a1565b110/";
 export const githubUrl = "#";
 export const twitterUrl = "#";
 export const researchGateUrl = "#";
