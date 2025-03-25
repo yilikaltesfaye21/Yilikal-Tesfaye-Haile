@@ -11,8 +11,7 @@ export const darkColor = "#2c4a63";
 // Social media links - update with your own URLs
 export const linkedinUrl = "https://www.linkedin.com/in/yilikal-tesfaye-a1565b110/";
 export const githubUrl = "#";
-export const twitterUrl = "#";
-export const researchGateUrl = "#";
+export const researchGateUrl = "https://www.researchgate.net/profile/Yilikal-Haile?ev=hdr_xprf";
 
 // Contact information - update with your own details
 export const email = "yilikal.tesfaye@amu.edu.et";
