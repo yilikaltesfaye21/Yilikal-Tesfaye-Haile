@@ -1,6 +1,6 @@
 // User customizable configuration
-export const name = "Dr. Jane Smith";
-export const initials = "JS";
+export const name = " Yilikal Tesfaye Haile";
+export const initials = "YTH";
 export const tagline = "Statistical Consultant & Research Scientist";
 
 // Color scheme - updated to calm blues and greens
@@ -15,9 +15,9 @@ export const twitterUrl = "#";
 export const researchGateUrl = "#";
 
 // Contact information - update with your own details
-export const email = "jane.smith@university.edu";
-export const phone = "+1 (555) 234-5678";
-export const location = "Boston, MA";
+export const email = "yilikal.tesfaye@amu.edu.et";
+export const phone = "+251 (0) 910-83-84-99";
+export const location = "Arba Minch, Ethiopia";
 
 // CV Download link - update with your own CV file URL
 export const cvUrl = "https://example.com/cv.pdf";
