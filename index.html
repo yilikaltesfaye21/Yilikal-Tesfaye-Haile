@@ -1,0 +1,320 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Jane Smith | Statistical Consultant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/framer-motion@10.12.16/dist/framer-motion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "gsap": "https://cdn.jsdelivr.net/npm/gsap@3.12.2/+esm"
+            }
+        }
+    </script>
+    <script type="module" src="config.js"></script>
+    <script type="module" src="script.js"></script>
+    <script type="module" src="app.js" defer></script>
+    <meta name="description" content="Dr. Jane Smith - Statistical Consultant and Research Scientist specializing in data analysis, research methodology, and statistical consulting.">
+    <meta name="keywords" content="statistical consultant, research scientist, data analysis, statistics, Jane Smith">
+    <meta name="author" content="Dr. Jane Smith">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">JS</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="active">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1>I'm <span class="highlight">Dr. Jane Smith</span></h1>
+                        <p class="tagline">Statistical Consultant & Research Scientist</p>
+                        <p class="description">Helping researchers and organizations extract meaningful insights from complex data through statistical analysis and consulting.</p>
+                        <div class="cta-buttons">
+                            <a href="#services" class="btn primary">Explore Services</a>
+                            <a href="#contact" class="btn secondary">Get In Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-graphic">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="blob">
+                            <path fill="var(--accent-color)" d="M45.3,-58.8C58.1,-48.7,67.9,-33.7,72.1,-16.9C76.3,-0.1,75,18.5,67.2,33.9C59.5,49.3,45.4,61.4,29.4,68.5C13.4,75.5,-4.5,77.6,-21.7,73C-38.9,68.4,-55.4,57.1,-66.1,41.1C-76.7,25.1,-81.5,4.5,-77.9,-14.1C-74.2,-32.8,-62.1,-49.5,-47,-59.8C-31.9,-70.1,-16,-74,-0.2,-73.7C15.5,-73.4,31.1,-68.9,45.3,-58.8Z" transform="translate(100 100)" />
+                        </svg>
+                        <div class="profile-image"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a statistical consultant with over 10 years of experience, specializing in experimental design, data analysis, and research methodology. With a Ph.D. in Applied Statistics from Harvard University, I help researchers and organizations navigate complex data challenges.</p>
+                        <p>My research interests include Bayesian statistics, longitudinal data analysis, and causal inference. I've collaborated with professionals across numerous fields including medicine, psychology, economics, and social sciences.</p>
+                        <h3>Areas of Expertise</h3>
+                        <div class="skills">
+                            <div class="skill">
+                                <span>Statistical Analysis</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Research Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Machine Learning</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span>Data Visualization</span>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 88%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">40+</div>
+                            <div class="stat-label">Publications</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">150+</div>
+                            <div class="stat-label">Consulting Projects</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education & Experience</h2>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2010 - 2014</div>
+                        <h3 class="timeline-title">Ph.D. in Applied Statistics</h3>
+                        <div class="timeline-institution">Harvard University</div>
+                        <p>Dissertation focused on advanced Bayesian methods for analyzing longitudinal health data. Awarded the department's Outstanding Dissertation Award.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2008 - 2010</div>
+                        <h3 class="timeline-title">M.S. in Statistical Science</h3>
+                        <div class="timeline-institution">Stanford University</div>
+                        <p>Specialized in computational statistics and statistical learning. Graduate Research Assistant for the Department of Biostatistics.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2004 - 2008</div>
+                        <h3 class="timeline-title">B.S. in Mathematics</h3>
+                        <div class="timeline-institution">MIT</div>
+                        <p>Graduated summa cum laude with minors in Computer Science and Economics. Recipient of the Outstanding Undergraduate Research Award.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2014 - Present</div>
+                        <h3 class="timeline-title">Statistical Consultant & Adjunct Professor</h3>
+                        <div class="timeline-institution">Boston University & Private Practice</div>
+                        <p>Teaching advanced statistical methods while maintaining an independent consulting practice serving researchers and organizations across various sectors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications">
+            <div class="container">
+                <h2>Selected Publications</h2>
+                <div class="publications-list">
+                    <div class="publication">
+                        <span class="publication-year">2023</span>
+                        <h3 class="publication-title">Advanced Bayesian Methods for Longitudinal Health Data Analysis</h3>
+                        <p class="publication-authors">Smith, J., Johnson, R., & Williams, T.</p>
+                        <p class="publication-journal">Journal of Applied Statistics, 45(3), 256-278</p>
+                        <p class="publication-abstract">This paper introduces a novel Bayesian framework for analyzing complex longitudinal health data with irregular sampling intervals and missing values.</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> Journal</a>
+                        </div>
+                    </div>
+                    <div class="publication">
+                        <span class="publication-year">2022</span>
+                        <h3 class="publication-title">Statistical Power Analysis for Mixed-Effects Models in Educational Research</h3>
+                        <p class="publication-authors">Smith, J., & Anderson, M.</p>
+                        <p class="publication-journal">Educational Research Methods, 29(2), 124-139</p>
+                        <p class="publication-abstract">A comprehensive examination of power analysis techniques for multilevel models in educational settings, with practical guidelines for researchers.</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> Journal</a>
+                        </div>
+                    </div>
+                    <div class="publication">
+                        <span class="publication-year">2020</span>
+                        <h3 class="publication-title">Causal Inference Methods in Public Health: A Comparative Study</h3>
+                        <p class="publication-authors">Rodriguez, K., Smith, J., & Garcia, L.</p>
+                        <p class="publication-journal">American Journal of Public Health, 110(5), 678-691</p>
+                        <p class="publication-abstract">This study compares various causal inference methods applied to public health interventions, highlighting strengths and limitations of each approach.</p>
+                        <div class="publication-links">
+                            <a href="#" class="publication-link"><i class="fas fa-file-pdf"></i> PDF</a>
+                            <a href="#" class="publication-link"><i class="fas fa-external-link-alt"></i> Journal</a>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="#" class="btn secondary">View All Publications</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2>Services Offered</h2>
+                <p>I provide comprehensive statistical consulting and research support services tailored to your specific needs.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Statistical Analysis</h3>
+                        <p>Expert analysis of your research data using appropriate statistical methods to extract meaningful insights.</p>
+                        <ul class="service-list">
+                            <li>Descriptive & inferential statistics</li>
+                            <li>Regression analysis (linear, logistic, multilevel)</li>
+                            <li>Time series analysis</li>
+                            <li>Survival analysis</li>
+                        </ul>
+                        <a href="#contact" class="btn primary">Inquire Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3>Research Design</h3>
+                        <p>Assistance in designing rigorous research studies to ensure valid and reliable results.</p>
+                        <ul class="service-list">
+                            <li>Sample size calculations & power analysis</li>
+                            <li>Experimental design optimization</li>
+                            <li>Survey design and validation</li>
+                            <li>Sampling strategies</li>
+                        </ul>
+                        <a href="#contact" class="btn primary">Inquire Now</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                        </div>
+                        <h3>Training & Workshops</h3>
+                        <p>Customized statistical training sessions for researchers, teams, and organizations.</p>
+                        <ul class="service-list">
+                            <li>Statistical software (R, Python, SPSS, SAS)</li>
+                            <li>Research methodology workshops</li>
+                            <li>Data visualization techniques</li>
+                            <li>Advanced statistical methods</li>
+                        </ul>
+                        <a href="#contact" class="btn primary">Inquire Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p class="email-value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="aac0cbc4cf84d9c7c3dec2eadfc4c3dccfd8d9c3ded384cfcedf">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p class="phone-value">+1 (555) 234-5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p class="location-value">Boston, MA</p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" data-platform="linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link" data-platform="github"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link" data-platform="twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" data-platform="researchgate"><i class="fab fa-researchgate"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Dr. Jane Smith. All rights reserved.</p>
+                <p>Statistical Consulting & Research Services</p>
+            </div>
+        </div>
+    </footer>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
