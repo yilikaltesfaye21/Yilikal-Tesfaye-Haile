@@ -1,6 +1,6 @@
 // User customizable configuration
 export const name = " Yilikal Tesfaye Haile";
-export const initials = "YTH";
+export const initials = "YH";
 export const tagline = "Statistical Consultant & Research Scientist";
 
 // Color scheme - updated to calm blues and greens
@@ -9,7 +9,7 @@ export const accentColor = "#81a4cd";
 export const darkColor = "#2c4a63";
 
 // Social media links - update with your own URLs
-export const linkedinUrl = "#";
+export const linkedinUrl = "#https://www.linkedin.com/in/yilikal-tesfaye-a1565b110/";
 export const githubUrl = "#";
 export const twitterUrl = "#";
 export const researchGateUrl = "#";
