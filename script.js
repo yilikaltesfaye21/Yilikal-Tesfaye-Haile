@@ -50,7 +50,7 @@ function applyConfig() {
     // Update social links
     document.querySelectorAll('.social-links a').forEach(link => {
         const platform = link.getAttribute('data-platform');
-        if (platform === 'linkedin') link.href = config.linkedinUrl;
+        if (platform === 'linkedin') link.href = config.https://www.linkedin.com/in/yilikal-tesfaye-a1565b110/;
         if (platform === 'github') link.href = config.githubUrl;
         if (platform === 'twitter') link.href = config.twitterUrl;
         if (platform === 'researchgate') link.href = config.researchGateUrl;
