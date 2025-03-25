@@ -15,7 +15,7 @@ export const researchGateUrl = "https://www.researchgate.net/profile/Yilikal-Hai
 
 // Contact information - update with your own details
 export const email = "yilikal.tesfaye@amu.edu.et";
-export const phone = "+251 (0) 910-83-84-99";
+export const phone = "+251 910-83-84-99";
 export const location = "Arba Minch, Ethiopia";
 
 // CV Download link - update with your own CV file URL
